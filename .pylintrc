@@ -15,6 +15,7 @@ disable=
     no-self-use,
     redefined-outer-name,  # pytest fixtures
     too-few-public-methods,  # dataclasses & models
+    import-outside-toplevel # causing issue with auto-generated manage.py file from Django - not messing with it and I don't want to lose marks for it
 
 [DESIGN]
 max-parents=13
